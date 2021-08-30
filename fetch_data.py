@@ -25,8 +25,8 @@ class dates_generator:
 
 
 current_date = dateutil.utils.today()
-
-dates = dates_generator().dates('20101001', current_date.strftime("%Y%m%d"))
+# first date 20101001
+dates = dates_generator().dates('20210701', current_date.strftime("%Y%m%d"))
 
 
 class data_generator: 
